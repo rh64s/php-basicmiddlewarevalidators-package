@@ -2,12 +2,12 @@
 
 namespace Validators;
 
-use Src\Validator\AbstractValidator;
+use BasicFilter\Validator\AbstractValidator;
 
 class MaxSymbolsValidator extends AbstractValidator
 {
 
-    protected string $message = 'Field :field should not be more than :max characters';
+    protected string $message = 'Field :field is too long';
 
     public function rule(): bool
     {

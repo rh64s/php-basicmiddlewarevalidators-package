@@ -2,7 +2,7 @@
 
 namespace Validators;
 
-use Src\Validator\AbstractValidator;
+use BasicFilter\Validator\AbstractValidator;
 
 class PhoneValidator extends AbstractValidator
 {

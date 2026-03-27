@@ -2,8 +2,7 @@
 
 namespace Validators;
 
-use Debug\DebugTools;
-use Src\Validator\AbstractValidator;
+use BasicFilter\Validator\AbstractValidator;
 
 class MimeTypesValidator extends AbstractValidator
 {

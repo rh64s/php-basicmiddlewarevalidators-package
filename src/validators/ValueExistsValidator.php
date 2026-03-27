@@ -3,10 +3,8 @@
 
 namespace Validators;
 
-use Debug\DebugTools;
 use Illuminate\Database\Capsule\Manager as Capsule;
-use Illuminate\Support\Facades\Log;
-use Src\Validator\AbstractValidator;
+use BasicFilter\Validator\AbstractValidator;
 
 class ValueExistsValidator extends AbstractValidator
 {

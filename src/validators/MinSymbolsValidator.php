@@ -2,12 +2,12 @@
 
 namespace Validators;
 
-use Src\Validator\AbstractValidator;
+use BasicFilter\Validator\AbstractValidator;
 
 class MinSymbolsValidator extends AbstractValidator
 {
 
-    protected string $message = 'Field :field should not be more than :min characters';
+    protected string $message = 'Field :field is too short';
 
     public function rule(): bool
     {
