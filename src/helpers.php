@@ -1,6 +1,6 @@
 <?php
 
-namespace BasicMiddlewares;
+namespace BasicValidators;
 
 function getMiddlewares(): array
 {

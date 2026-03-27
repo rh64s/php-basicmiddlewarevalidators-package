@@ -1,8 +1,8 @@
 <?php
 
-namespace Validators;
+namespace BasicValidators\Validators;
 
-use BasicFilter\Validator\AbstractValidator;
+use BasicValidators\Validator\AbstractValidator;
 
 class RequireValidator extends AbstractValidator
 {

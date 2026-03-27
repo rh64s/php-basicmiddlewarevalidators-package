@@ -1,4 +1,6 @@
 <?php
+namespace BasicValidators\Validators;
+
 return [
     'required' => \Validators\RequireValidator::class,
     'unique' => \Validators\UniqueValidator::class,
