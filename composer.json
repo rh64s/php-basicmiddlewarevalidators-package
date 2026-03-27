@@ -1,5 +1,5 @@
 {
-  "name": "rh64s/basicvalidators",
+  "name": "rh64s/basicmiddlewares",
   "description": "Module that provides basic validators for PHP.",
   "type": "library",
   "license" : "MIT",
