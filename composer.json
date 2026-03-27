@@ -1,0 +1,25 @@
+{
+  "name": "rh64s/basicmiddlewares",
+  "description": "Module that provides basic validators and middlewares",
+  "type": "library",
+  "license" : "MIT",
+
+  "authors": [
+    {
+      "name": "lol",
+      "email": "cchelovekov64@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^8.1 | ^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "BasicMiddlewares\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
