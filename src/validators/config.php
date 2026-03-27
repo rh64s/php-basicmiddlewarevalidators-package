@@ -2,13 +2,14 @@
 namespace BasicValidators\Validators;
 
 return [
-    'required' => \Validators\RequireValidator::class,
-    'unique' => \Validators\UniqueValidator::class,
-    'exists' => \Validators\ValueExistsValidator::class,
-    'max' => \Validators\MaxSymbolsValidator::class,
-    'min' => \Validators\MinSymbolsValidator::class,
-    'email' => \Validators\EmailValidator::class,
-    'phone' => \Validators\PhoneValidator::class,
-    'regex' => \Validators\RawRegexValidation::class,
-    'mime' => \Validators\MimeTypesValidator::class
+    // fix paths for validators
+    'required' => \BasicValidators\Validators\RequireValidator::class,
+    'unique' => \BasicValidators\Validators\UniqueValidator::class,
+    'exists' => \BasicValidators\Validators\ValueExistsValidator::class,
+    'max' => \BasicValidators\Validators\MaxSymbolsValidator::class,
+    'min' => \BasicValidators\Validators\MinSymbolsValidator::class,
+    'email' => \BasicValidators\Validators\EmailValidator::class,
+    'phone' => \BasicValidators\Validators\PhoneValidator::class,
+    'regex' => \BasicValidators\Validators\RawRegexValidation::class,
+    'mime' => \BasicValidators\Validators\MimeTypesValidator::class
 ];
