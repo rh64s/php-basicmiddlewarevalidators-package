@@ -19,7 +19,8 @@
       "BasicFilter\\": "src/"
     },
     "files": [
-      "src/helpers.php"
+      "src/helpers.php",
+      "src/validators/EmailValidator.php"
     ]
   }
 }
